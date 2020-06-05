@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f8ff;
+}
+h1 {
+    color: blue; text-align: center;
+}
+ul {
+    list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: gray;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block; color: white; text-align: center; padding: 16px; text-decoration: none;
+}
+li a:hover {
+    background-color: black;
+}
+/* table {
+    border: 2px ; width: 500px; height: 300px; align: center;
+} */
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+ }
+ /* registration from style start */
+ div.form {
+    background-color: lightgray; width: fit-content;
+    border: 15px solid green; padding: 50px;
+    margin: 20px;
+}
+input[type=text], select {
+    width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+    border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=date], select {
+    width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+    border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=email], select {
+    width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+    border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=tel], select {
+    width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+    border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block;
+    border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px;
+    margin: 8px 0; border: none;border-radius: 4px; cursor: pointer;
+}
+input[type=reset] {
+    width: 100%; background-color: #4CAF50; color: white; padding: 14px 20px;
+    margin: 8px 0; border: none;border-radius: 4px; cursor: pointer;
+}
+input[type=submit], input [type=reset]:hover {background-color: yellowgreen;}
+/* registration from style end */
